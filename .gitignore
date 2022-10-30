@@ -2,3 +2,9 @@
 .idea
 .vscode
 *.vcd
+*.ghw
+*.o
+simple_multiplier
+results.xml
+sim_build/
+__pycache__/
