@@ -16,7 +16,7 @@ documentation:
   author:       "Job Tijhuis"      # Your name
   discord:      ""      # Your discord handle
   title:        "3 bit multiply-accumulate"      # Project title
-  description:  ""      # Short description of what your project does
+  description:  "3 bit multiplication 6 bit output"      # Short description of what your project does
   how_it_works: ""      # Longer description of how the project works
   how_to_test:  ""      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   external_hw:  ""      # Describe any external hardware needed
