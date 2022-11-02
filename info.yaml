@@ -26,19 +26,19 @@ documentation:
   inputs:               # a description of what the inputs do
     - clock
     - reset
-    - input a0
-    - input a1
-    - input a2
-    - input b0
-    - input b1
-    - input b2
+    - input a_in[0]
+    - input a_in[1]
+    - input a_in[2]
+    - input b_in[0]
+    - input b_in[1]
+    - input b_in[2]
   outputs:
-    - output p0         # a description of what the outputs do
-    - output p1
-    - output p2
-    - output p3
-    - output p4
-    - output p5
+    - output c_out[0]         # a description of what the outputs do
+    - output c_out[1]
+    - output c_out[2]
+    - output c_out[3]
+    - output c_out[4]
+    - output c_out[5]
     - none
     - none
 
