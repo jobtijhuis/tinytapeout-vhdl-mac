@@ -35,7 +35,7 @@ documentation:
   outputs:
     - output p0         # a description of what the outputs do
     - output p1
-    - output p2s
+    - output p2
     - output p3
     - output p4
     - output p5
