@@ -11,17 +11,17 @@ end entity simple_multiplier;
 
 architecture rtl of simple_multiplier is
     
-    signal a_in  : std_logic_vector(2 downto 0);
-    signal b_in  : std_logic_vector(2 downto 0);
-    signal c_out : std_logic_vector(5 downto 0);
+    signal a_in  : std_logic_vector(3 downto 0);
+    signal b_in  : std_logic_vector(3 downto 0);
+    signal c_out : std_logic_vector(7 downto 0);
 
 begin
 
-    a_in <= io_in(4 downto 2);
-    b_in <= io_in(7 downto 5);
+    a_in <= io_in(3 downto 0);
+    b_in <= io_in(7 downto 4);
 
     c_out <= std_logic_vector(unsigned(a_in) * unsigned(b_in));
 
-    io_out(5 downto 0) <= c_out;
+    io_out <= c_out;
     
 end architecture rtl;
